@@ -1,2 +1,1 @@
-# places-to-work
-This is V2 of coworking-spaces to practice Next.js + more
+This is V2 of places-to-work built with Next.js
