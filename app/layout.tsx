@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Places to Work',
-  description: 'Find Places Near You to Work',
+  title: 'Places to Co-Work',
+  description: 'Find Places Near You to Co-Work',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      
+      <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
       <body className={inter.className}>{children}</body>
     </html>
   )
